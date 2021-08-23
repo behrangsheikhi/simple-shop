@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'Yekan';
+    src: url('../fonts/Yekan/Yekan.eot'), url('../fonts/Yekan/Yekan.svg'), url('../fonts/Yekan/Yekan.ttf'), url('../fonts/Yekan/yekan.woff');
+    font-weight: normal;
+    font-style: normal;
+    font-size: larger;
+}
+
+@font-face {
+    font-family: 'shabnam-400';
+    src: url('../fonts/shabnam-400/shabnam-400.eot'), url('../fonts/shabnam-400/shabnam-400.ttf'), url('../fonts/shabnam-400/shabnam-400.woff'), url('../fonts/shabnam-400/shabnam-400.woff2');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'shabnam-500';
+    src: url('../fonts/shabnam-500/shabnam-500.eot'), url('../fonts/shabnam-500/shabnam-500.woff2'), url('../fonts/shabnam-500/shabnam-500.woff'), url('../fonts/shabnam-500/shabnam-500.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'shabnam-700';
+    src: url('../fonts/shabnam-700/shabnam-700.eot'), url('../fonts/shabnam-700/shabnam-700.woff2'), url('../fonts/shabnam-700/shabnam-700.woff'), url('../fonts/shabnam-700/shabnam-700.ttf');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'iran-sans';
+    src: url('../fonts/iran-sans/eot/IRANSansWeb.eot'), url('../fonts/iran-sans/ttf/IRANSansWeb.ttf'), url('../fonts/iran-sans/woff/IRANSansWeb.woff'), url('../fonts/iran-sans/woff2/IRANSansWeb.woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'flaticon';
+    src: url('../fonts/flaticons/Flaticon.eot'), url('../fonts/flaticons/Flaticon.woff2'), url('../fonts/flaticons/Flaticon.woff'), url('../fonts/flaticons/Flaticon.ttf'), url('../fonts/flaticons/Flaticon.svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'glyphicon';
+    src: url('../fonts/glyphicons/glyphicons-halflings-regular.eot'), url('../fonts/glyphicons/glyphicons-halflings-regular.woff2'), url('../fonts/glyphicons/glyphicons-halflings-regular.woff'), url('../fonts/glyphicons/glyphicons-halflings-regular.svg'), url('../fonts/glyphicons/glyphicons-halflings-regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}

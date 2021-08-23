@@ -1,0 +1,993 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>سبد خرید</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap-rtl.css">
+
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.css">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/fonts.css">
+
+    <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="css/fontawesome-all.css">
+    <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="fonts/uicons-regular-rounded/css/uicons-regular-rounded.css">
+</head>
+
+<body>
+<!-- ----------------------------------------start header--------------------------------- -->
+<header>
+    <div class="container-fluid">
+        <!-- start notification for inform customers -->
+        <div class="row d-inline">
+            <div id="notification">
+                <div class="row d-flex flex-row justify-content-center">
+                        <span>
+                            <i class="fi fi-rr-info"></i>
+                            از ساعت 12 تا 16 امروز شنبه 30 مرداد از ارسال مرسوله ها معذوریم،مشتشکریم که شکیبا هستید
+                            <i class="fa fa-times-circle "></i>
+                        </span>
+
+                </div>
+            </div>
+        </div>
+        <!-- end notification for inform customers -->
+
+        <div class="row">
+            <!-- start header top -->
+            <div id="header_top">
+                <div class="right">
+                    <a href="#"><img src="img/logo/logo-websites-31327.png" alt=""></a>
+                </div>
+                <div class="middle">
+                        <span class="my_search">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="input-group">
+                                        <input type="text" class="form-control input-text"
+                                               placeholder="جستجو در فروشگاه. . .">
+                                        <div class="input-group-append">
+                                            <button class="btn btn-primary" type="submit">
+                                                <i class="fi fi-rr-search"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </span>
+                </div>
+                <div class="left">
+                    <div class="btn_holder">
+                        <button class="green" id="user_cart">سبد خرید
+                            <i class="fi fi-rr-shopping-cart"></i>
+                        </button>
+
+                        <button class="red" id="user_account">حساب کاربری
+                            <i class="fi fi-rr-user"></i>
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+            <!-- end header top -->
+        </div>
+        <!-- start navigation(main header) -->
+        <!-- navigation menu -->
+        <nav class="navbar navbar-expand-lg " id="my_navbar">
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="fi fi-rr-menu-burger fa-2x" style="color: rgb(193, 193, 193);"></span>
+            </button>
+            <!----------------------------account info (login/register)  ---------------------------------->
+            <a href="#">
+                <div class="left">
+                    <div class="btn_holder" id="navbar_user_account">
+                        <button class="red">حساب کاربری
+                            <i class="fi fi-rr-user"></i>
+                        </button>
+                    </div>
+                </div>
+            </a>
+            <!----------------------------account info (login/register)  ---------------------------------->
+
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">توان گستر</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link " href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="fi fi-rr-menu-burger"></i> محصولات
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown1">
+
+
+                            <div class="container" id="mega_menu">
+                                <div class="row">
+                                    <div class="col-md-4 col-lg-3 mt-2">
+                                        <span class="text-uppercase text-white">تجهیزات مونتاژ</span>
+                                        <ul class="nav flex-column ">
+                                            <li class="nav-item">
+                                                <a class="nav-link " href="#">لورم ایپسوم متن </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">لورم ایپسوم </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">لورم ایپسوم متن ساختگی </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">لورم ایپسوم متن ساختگی </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <!-- /.col-md-4  -->
+                                    <div class="col-md-4 col-lg-3 mt-2">
+                                        <span class="text-uppercase text-white"> میکروکنترلرها</span>
+                                        <ul class="nav flex-column ">
+                                            <li class="nav-item">
+                                                <a class="nav-link " href="#">لورم ایپسوم </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">لورم ایپسوم متن </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">لورم ایپسوم متن </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">لورم ایپسوم </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <!-- /.col-md-4  -->
+                                    <div class="col-md-4 col-lg-3 mt-2">
+                                            <span class="text-uppercase text-white"> قطعات الکترونیک آنالوگ،دیجیتال و
+                                                صنعتی</span>
+                                        <ul class="nav flex-column">
+                                            <li class="nav-item">
+                                                <a class="nav-link " href="#">لورم ایپسوم </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">لورم ایپسوم متن </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">لورم ایپسوم </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">لورم ایپسوم </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-4 col-lg-3 mt-2">
+                                            <span class="text-uppercase text-white"> انواع پروگرامر و بردهای آموزشی
+                                                AVR-ARM</span>
+                                        <ul class="nav flex-column">
+                                            <li class="nav-item">
+                                                <a class="nav-link " href="#">لورم ایپسوم متن </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">لورم ایپسوم </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">لورم ایپسوم </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">لورم ایپسوم متن ساختگی با </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <!-- <div class="col-md-4 col-lg-3">
+                                        <a href="">
+                                            <img src="https://dummyimage.com/200x100/ccc/000&text=image+link" alt="" class="img-fluid">
+                                        </a>
+                                        <p class="text-white">Short image call to action</p>
+
+                                    </div> -->
+                                    <!-- /.col-md-4  -->
+                                </div>
+                            </div>
+                            <!--  /.container  -->
+
+
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link " href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="fi fi-rr-menu-burger"></i> دسته ها
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
+
+
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-4 col-lg-3 mt-2 mt-2">
+                                        <span class="text-uppercase text-white"> هوشمند سازی</span>
+                                        <ul class="nav flex-column">
+                                            <li class="nav-item">
+                                                <a class="nav-link " href="#">لورم ایپسوم </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link " href="#">لورم ایپسوم </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">لورم ایپسوم متن </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">لورم ایپسوم </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <!-- /.col-md-4  -->
+                                    <div class="col-md-4 col-lg-3 mt-2">
+                                        <span class="text-uppercase text-white"> میکروکنترلرها</span>
+                                        <ul class="nav flex-column">
+                                            <li class="nav-item">
+                                                <a class="nav-link " href="#">لورم ایپسوم متن </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">لورم ایپسوم </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">لورم ایپسوم </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">لورم ایپسوم </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <!-- /.col-md-4  -->
+                                    <div class="col-md-4 col-lg-3 mt-2">
+                                        <span class="text-uppercase text-white"> جعبه و قاب های فلزی-پلاستیکی</span>
+                                        <ul class="nav flex-column">
+                                            <li class="nav-item">
+                                                <a class="nav-link " href="#">لورم ایپسوم </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">لورم ایپسوم متن ساختگی </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">لورم ایپسوم </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">لورم ایپسوم </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-4 col-lg-3 mt-2">
+                                        <span class="text-uppercase text-white">انواع دیود</span>
+                                        <ul class="nav flex-column">
+                                            <li class="nav-item">
+                                                <a class="nav-link " href="#">لورم ایپسوم متن </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">لورم ایپسوم متن </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">لورم ایپسوم متن </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">لورم ایپسوم </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <!-- /.col-md-4  -->
+                                </div>
+                            </div>
+                            <!--  /.container  -->
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <i class="fi fi-rr-info"></i> درباره ما
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <i class="fi fi-rr-headphones"></i> تماس با ما
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <!-- end navigation(main header) -->
+</header>
+<!------------------------------------------------------ end of header------------------------------------------- -->
+
+<!-------------------------------------------------- breadcrumb design ---------------------------------------------->
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item float-right d-flex flex-direction-row ">
+            <a href="#">
+                <i class="fi fi-rr-home"></i>
+            </a>
+        </li>
+        <li class="breadcrumb-item float-right d-flex flex-direction-row ">
+            <a href="#">
+               محصولات
+            </a>
+        </li>
+        <li class="breadcrumb-item float-right d-flex flex-direction-row ">
+            <a href="#">
+                دسته بندی
+            </a>
+        </li>
+        <li class="breadcrumb-item float-right d-flex flex-direction-row ">
+            <a href="#">
+               محصول
+            </a>
+        </li>
+        <li class="breadcrumb-item float-right d-flex flex-direction-row active" aria-current="page">سبد خرید</li>
+    </ol>
+</nav>
+<!-------------------------------------------------- breadcrumb design ---------------------------------------------->
+<main id="content" class="cart">
+    <div class="container">
+        <div class="row">
+            <article class="cart_page">
+                <div class="right_col" >
+                    <div class="row">
+                        <div class="product_content flex-md-row p-2">
+                            <div class="c-cart-item__thumb col">
+                                <a  class="c-cart-item__thumb-img js-save-for-later-card" href="#" target="_blank">
+                                    <img alt="" src="img/electronics/4.png" class="img-responsive" title="موس بیسیم لاجیتک">
+                                </a>
+                            </div>
+                            <div class="c-cart-item__data col">
+                                <div class="column">
+                                    <div class="c-cart-item__title">
+                                        ماوس بیسیم لاجیتک
+                                    </div>
+
+                                    <div class="c-cart-item__product-data c-cart-item__product-data--color">
+                                        <i class="fa fa-caret-left"></i> نقره ای
+                                    </div>
+
+                                    <div class="c-cart-item__product-data c-cart-item__product-data--warranty">
+                                        <i class="fa fa-caret-left"></i> گارانتی 24 ماهه بهرنگ
+                                    </div>
+
+                                    <div class="c-cart-item__product-data c-cart-item__product-data--seller">
+                                        <i class="fa fa-caret-left"></i>  ارسال سریع به تمام نقاط کشور
+                                    </div>
+
+                                    <div class="c-cart-item__product-data c-cart-item__product-data--seller">
+                                        <i class="fa fa-caret-left"></i> ارسال کالا تا یک روز کاری
+                                    </div>
+
+                                </div>
+                                <div class="c-cart-item__spacer"></div>
+
+                                <div class="row">
+                                    <table class="table table-bordered table-striped table-responsive-stack " id="tableOne">
+                                        <thead class="thead-light">
+                                        <tr>
+                                            <th>تعداد</th>
+                                            <th>حذف</th>
+                                            <th>ذخیره</th>
+                                            <th>تخفیف</th>
+                                            <th>مجموع</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                        <tr>
+                                            <td>
+                                                <select name="count" id="count">
+                                                    <option value="1">1</option>
+                                                    <option value="2">2</option>
+                                                    <option value="3">3</option>
+                                                    <option value="4">4</option>
+                                                    <option value="5">5</option>
+                                                </select>
+                                            </td>
+                                            <td>
+                                                <div class="btn btn-danger">
+                                                    <i class="fa fa-trash-o"></i>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <a href="#" > ذخیره در علاقه مندی ها</a>
+                                            </td>
+                                            <td>
+                                                <div class="c-checkout-bill__price c-checkout-bill__price&#45;&#45;discount ">
+                                                     تومان۲,۹۰۰  <span>(۵٪)</span>
+                                                    <span class="c-checkout-bill__currency"></span>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="c-checkout-bill__price text-success" style="color: #777777">۵۶,۶۰۰
+                                                    <span class="c-checkout-bill__currency">تومان</span>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <hr>
+
+                    <div class="row">
+                        <div class="product_content flex-md-row p-2">
+                            <div class="c-cart-item__thumb col">
+                                <a  class="c-cart-item__thumb-img js-save-for-later-card" href="#" target="_blank">
+                                    <img alt="" src="img/electronics/4.png" class="img-responsive" title="موس بیسیم لاجیتک">
+                                </a>
+                            </div>
+                            <div class="c-cart-item__data col">
+                                <div class="column">
+                                    <div class="c-cart-item__title">
+                                        ماوس بیسیم لاجیتک
+                                    </div>
+
+                                    <div class="c-cart-item__product-data c-cart-item__product-data--color">
+                                        <i class="fa fa-caret-left"></i> نقره ای
+                                    </div>
+
+                                    <div class="c-cart-item__product-data c-cart-item__product-data--warranty">
+                                        <i class="fa fa-caret-left"></i> گارانتی 24 ماهه بهرنگ
+                                    </div>
+
+                                    <div class="c-cart-item__product-data c-cart-item__product-data--seller">
+                                        <i class="fa fa-caret-left"></i>  ارسال سریع به تمام نقاط کشور
+                                    </div>
+
+                                    <div class="c-cart-item__product-data c-cart-item__product-data--seller">
+                                        <i class="fa fa-caret-left"></i> ارسال کالا تا یک روز کاری
+                                    </div>
+
+                                </div>
+                                <div class="c-cart-item__spacer"></div>
+                                <div class="row">
+                                    <table class="table table-bordered table-striped table-responsive-stack " id="tableOne">
+                                        <thead class="thead-light">
+                                        <tr>
+                                            <th>تعداد</th>
+                                            <th>حذف</th>
+                                            <th>ذخیره</th>
+                                            <th>تخفیف</th>
+                                            <th>مجموع</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                        <tr>
+                                            <td>
+                                                <select name="count" id="count">
+                                                <option value="1">1</option>
+                                                <option value="2">2</option>
+                                                <option value="3">3</option>
+                                                <option value="4">4</option>
+                                                <option value="5">5</option>
+                                            </select>
+                                            </td>
+                                            <td>
+                                                <div class="btn btn-danger">
+                                                    <i class="fa fa-trash-o"></i>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <a href="#" > ذخیره در علاقه مندی ها</a>
+                                            </td>
+                                            <td>
+                                                <div class="c-checkout-bill__price c-checkout-bill__price&#45;&#45;discount ">
+                                                      تومان۲,۹۰۰  <span>(۵٪)</span>
+                                                    <span class="c-checkout-bill__currency"></span>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="c-checkout-bill__price text-success" style="color: #777777">۵۶,۶۰۰
+                                                    <span class="c-checkout-bill__currency">تومان</span>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <hr>
+
+                    <div class="row">
+                            <div class="product_content flex-md-row p-2">
+                                <div class="c-cart-item__thumb col">
+                                    <a  class="c-cart-item__thumb-img js-save-for-later-card" href="#" target="_blank">
+                                        <img alt="" src="img/electronics/4.png" class="img-responsive" title="موس بیسیم لاجیتک">
+                                    </a>
+                                </div>
+                                <div class="c-cart-item__data col">
+                                    <div class="column">
+                                        <div class="c-cart-item__title">
+                                            ماوس بیسیم لاجیتک
+                                        </div>
+
+                                        <div class="c-cart-item__product-data c-cart-item__product-data--color">
+                                            <i class="fa fa-caret-left"></i> نقره ای
+                                        </div>
+
+                                        <div class="c-cart-item__product-data c-cart-item__product-data--warranty">
+                                            <i class="fa fa-caret-left"></i> گارانتی 24 ماهه بهرنگ
+                                        </div>
+
+                                        <div class="c-cart-item__product-data c-cart-item__product-data--seller">
+                                            <i class="fa fa-caret-left"></i>  ارسال سریع به تمام نقاط کشور
+                                        </div>
+
+                                        <div class="c-cart-item__product-data c-cart-item__product-data--seller">
+                                            <i class="fa fa-caret-left"></i> ارسال کالا تا یک روز کاری
+                                        </div>
+
+                                    </div>
+                                    <div class="c-cart-item__spacer"></div>
+
+                                    <div class="row">
+                                        <table class="table table-bordered table-striped table-responsive-stack " id="tableOne">
+                                            <thead class="thead-light">
+                                            <tr>
+                                                <th>تعداد</th>
+                                                <th>حذف</th>
+                                                <th>ذخیره</th>
+                                                <th>تخفیف</th>
+                                                <th>مجموع</th>
+                                            </tr>
+                                            </thead>
+                                            <tbody>
+                                            <tr>
+                                                <td>
+                                                    <select name="count" id="count">
+                                                        <option value="1">1</option>
+                                                        <option value="2">2</option>
+                                                        <option value="3">3</option>
+                                                        <option value="4">4</option>
+                                                        <option value="5">5</option>
+                                                    </select>
+                                                </td>
+                                                <td>
+                                                    <div class="btn btn-danger">
+                                                        <i class="fa fa-trash-o"></i>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <a href="#" > ذخیره در علاقه مندی ها</a>
+                                                </td>
+                                                <td>
+                                                    <div class="c-checkout-bill__price c-checkout-bill__price&#45;&#45;discount ">
+                                                         تومان۲,۹۰۰  <span>(۵٪)</span>
+                                                        <span class="c-checkout-bill__currency"></span>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="c-checkout-bill__price text-success" style="color: #777777">۵۶,۶۰۰
+                                                        <span class="c-checkout-bill__currency">تومان</span>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </article>
+            <aside>
+                <div id="left_col" >
+                    <div class="row">
+                        <div class="bill">
+                            <ul class="bill_summary">
+                                <li>
+                                <span class="c-checkout-bill__item-title">
+                                قیمت کالاها(۱)
+                                </span>
+                                    <span class="c-checkout-bill__price">۵۹,۵۰۰
+                                    <span class="c-checkout-bill__currency">تومان</span>
+                                </span>
+                                </li>
+                                <li>
+                                <span class="c-checkout-bill__item-title">
+                                تخفیف کالاها
+                                </span>
+                                    <span class="c-checkout-bill__price c-checkout-bill__price--discount">
+                                    <span>(۵٪)</span>۲,۹۰۰
+                                <span class="c-checkout-bill__currency">تومان</span>
+                                </span>
+                                </li>
+                                <hr>
+                                <li class="c-checkout-bill__sum-price">
+                                    <span class="c-checkout-bill__item-title">جمع سبد خرید</span>
+                                    <span class="c-checkout-bill__price">۵۶,۶۰۰
+                                    <span class="c-checkout-bill__currency">تومان</span>
+                                </span>
+                                </li>
+                                <li class="c-checkout-bill__additional-shipping-cost">
+                                    هزینه‌ی ارسال در ادامه بر اساس آدرس، زمان و
+                                    نحوه‌ی ارسال انتخابی شما‌ محاسبه و به این مبلغ اضافه خواهد شد
+                                </li>
+                                <hr>
+                                <li class="c-checkout-bill__to-forward-button">
+                                    <a href="#" class="btn btn-block green">
+                                    <span class="login_or_reg">ادامه فرایند خرید
+                                    <i class="fa fa-shopping-cart"></i>
+                                    </span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="btn btn-block red">
+                                    <span class="login_or_reg">
+                                    عضو هستید؟ اینجا کلیک کنید
+                                    </span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+        </div>
+
+        <!----------------------------------محصولات مرتبط--------------------------------------->
+        <div class="row">
+            <div class="col-lg-12">
+                <!--<div class="my_title">محصولات مرتبط</div>-->
+                <!--            تیتر و عنوان قسمت            -->
+                <div class="row w-100 mx-auto text-center py-4" style="display: flex;flex-wrap: nowrap;align-items: flex-end;">
+                    <div class="col-lg-5 col-md-4 col-3 text-right pt-4">
+                        <img src="img/title/Line_right.png" class="img-fluid w-md-25 mx-auto">
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-6 pt-2">
+                        <p style="font-family: 'shabnam-500', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                                      margin-bottom: 0 !important;
+                                      font-size: 3vh;">
+                            <b class="">محصولات مرتبط</b>
+                        </p>
+                    </div>
+                    <div class="col-lg-5 col-md-4 col-3 text-left pt-4">
+                        <img src="img/title/Line_left.png" class="img-fluid w-md-25 mx-auto">
+                    </div>
+                </div>
+                <!--            تیتر و عنوان قسمت            -->
+
+                <div id="news-slider" class="owl-carousel">
+                    <div class="post-slide">
+                        <div class="post-img">
+                            <div class="wrapper">
+
+                                <div class="box">
+                                    <div class="ribbon text-center">10%<br>تخفیف</div>
+                                </div>
+
+                            </div>
+                            <a href="#"><img src="img/electronics/10.png" alt=""></a>
+                            <!-- <a href="#" class="over-layer"><i class="fa fa-link"></i></a> -->
+                        </div>
+                        <div class="post-content">
+                            <h3 class="post-title">
+                                <a href="#">نام این محصول</a>
+                            </h3>
+                            <p class="post-description">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که </p>
+                            <div class="price">
+                                <span class="new_cost"></i>8000ريال</span>
+                                <span class="bookmark" title="ذخیره"><a href="#"><i class="fa fa-heart btn btn-outline-danger"></i></a></span>
+                                <span class="old_cost"></i>10000ريال</span>
+                            </div>
+                            <a href="#" class="shop btn btn-block">خرید
+                                <i class="fi fi-rr-shopping-cart "></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="post-slide">
+                        <div class="post-img">
+                            <div class="wrapper">
+
+                                <div class="box">
+                                    <div class="ribbon text-center">10%<br>تخفیف</div>
+                                </div>
+
+                            </div>
+                            <a href="#"> <img src="img/electronics/12.png" alt=""></a>
+                            <!-- <a href="#" class="over-layer"><i class="fa fa-link"></i></a> -->
+                        </div>
+                        <div class="post-content">
+                            <h3 class="post-title">
+                                <a href="#">نام این محصول</a>
+                            </h3>
+                            <p class="post-description">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که </p>
+                            <div class="price">
+                                <span class="new_cost"></i>8000ريال</span>
+                                <span class="bookmark" title="ذخیره"><a href="#"><i class="fa fa-heart btn btn-outline-danger"></i></a></span>
+                                <span class="old_cost"></i>10000ريال</span>
+                            </div>
+                            <a href="#" class="shop btn btn-block">خرید
+                                <i class="fi fi-rr-shopping-cart "></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="post-slide">
+                        <div class="post-img">
+                            <div class="wrapper">
+
+                                <div class="box">
+                                    <div class="ribbon text-center">10%<br>تخفیف</div>
+                                </div>
+
+                            </div>
+                            <a href="#"><img src="img/electronics/13.png" alt=""></a>
+                            <!-- <a href="#" class="over-layer"><i class="fa fa-link"></i></a> -->
+                        </div>
+                        <div class="post-content">
+                            <h3 class="post-title">
+                                <a href="#">نام این محصول</a>
+                            </h3>
+                            <p class="post-description">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که </p>
+                            <div class="price">
+                                <span class="new_cost"></i>8000ريال</span>
+                                <span class="bookmark" title="ذخیره"><a href="#"><i class="fa fa-heart btn btn-outline-danger"></i></a></span>
+                                <span class="old_cost"></i>10000ريال</span>
+                            </div>
+                            <a href="#" class="shop btn btn-block">خرید
+                                <i class="fi fi-rr-shopping-cart "></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="post-slide">
+                        <div class="post-img">
+                            <div class="wrapper">
+
+                                <div class="box">
+                                    <div class="ribbon text-center">10%<br>تخفیف</div>
+                                </div>
+
+                            </div>
+                            <a href="#"><img src="img/electronics/14.png" alt=""></a>
+                            <!-- <a href="#" class="over-layer"><i class="fa fa-link"></i></a> -->
+                        </div>
+                        <div class="post-content">
+                            <h3 class="post-title">
+                                <a href="#">نام این محصول</a>
+                            </h3>
+                            <p class="post-description">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که </p>
+                            <div class="price">
+                                <span class="new_cost"></i>8000ريال</span>
+                                <span class="bookmark" title="ذخیره"><a href="#"><i class="fa fa-heart btn btn-outline-danger"></i></a></span>
+                                <span class="old_cost"></i>10000ريال</span>
+                            </div>
+                            <a href="#" class="shop btn btn-block">خرید
+                                <i class="fi fi-rr-shopping-cart "></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="post-slide">
+                        <div class="post-img">
+                            <div class="wrapper">
+
+                                <div class="box">
+                                    <div class="ribbon text-center">10%<br>تخفیف</div>
+                                </div>
+
+                            </div>
+                            <a href="#"><img src="img/electronics/15.png" alt=""></a>
+                            <!-- <a href="#" class="over-layer"><i class="fa fa-link"></i></a> -->
+                        </div>
+                        <div class="post-content">
+                            <h3 class="post-title">
+                                <a href="#">نام این محصول</a>
+                            </h3>
+                            <p class="post-description">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که </p>
+                            <div class="price">
+                                <span class="new_cost"></i>8000ريال</span>
+                                <span class="bookmark" title="ذخیره"><a href="#"><i class="fa fa-heart btn btn-outline-danger"></i></a></span>
+                                <span class="old_cost"></i>10000ريال</span>
+                            </div>
+                            <a href="#" class="shop btn btn-block">خرید
+                                <i class="fi fi-rr-shopping-cart "></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="post-slide">
+                        <div class="post-img">
+                            <div class="wrapper">
+
+                                <div class="box">
+                                    <div class="ribbon text-center">10%<br>تخفیف</div>
+                                </div>
+
+                            </div>
+                            <a href="#"><img src="img/electronics/16.png" alt=""></a>
+                            <!-- <a href="#" class="over-layer"><i class="fa fa-link"></i></a> -->
+                        </div>
+                        <div class="post-content">
+                            <h3 class="post-title">
+                                <a href="#">نام این محصول</a>
+                            </h3>
+                            <p class="post-description">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که </p>
+                            <div class="price">
+                                <span class="new_cost"></i>8000ريال</span>
+                                <span class="bookmark" title="ذخیره"><a href="#"><i class="fa fa-heart btn btn-outline-danger"></i></a></span>
+                                <span class="old_cost"></i>10000ريال</span>
+                            </div>
+                            <a href="#" class="shop btn btn-block">خرید
+                                <i class="fi fi-rr-shopping-cart "></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!----------------------------------محصولات مرتبط--------------------------------------->
+
+    </div>
+
+    <!------------------------------------------------------ start footer ------------------------------------------- -->
+    <footer id="footer" class="d-flex-column text-center" style="width : 100%;">
+        <hr class="mt-0">
+        <!--Social buttons-->
+        <div class="text-center">
+            <span>ما را در شبکه های اجتماعی دنبال کنید</span>
+            <ul class="list-unstyled list-inline">
+                <li class="list-inline-item">
+                    <a href="#" class="sbtn btn-large mx-1" title="Facebook">
+                        <i class="fa fa-facebook-square fa-2x"></i>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="#" class="sbtn btn-large mx-1" title="Linkedin">
+                        <i class="fa fa-linkedin fa-2x"></i>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="#" class="sbtn btn-large mx-1" title="Twitter">
+                        <i class="fa fa-twitter-square fa-2x"></i>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="#" class="sbtn btn-large mx-1" title="Youtube">
+                        <i class="fa fa-youtube-square fa-2x"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!--/.Social buttons-->
+        <hr class="mb-0">
+        <!--Footer Links-->
+        <div class="container text-left text-md-center">
+            <div class="row">
+                <!--First column-->
+                <div class="col-md-3 mx-auto shfooter">
+                    <span class="my-2 font-weight-bold d-none d-md-block">چرا خرید از ما </span>
+                    <div class="d-md-none title" data-target="#product" data-toggle="collapse">
+                        <div class="mt-3 font-weight-bold text-right">چرا خرید از ما
+                            <div class="float-left navbar-toggler">
+                                <i class="fa fa-angle-down"></i>
+                                <i class="fa fa-angle-up"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <ul class="list-unstyled collapse" id="product">
+                        <li><a href="#">لورم ایپسوم متن ساختگی </a></li>
+                        <li><a href="#">لورم ایپسوم متن </a></li>
+                        <li><a href="#">لورم ایپسوم متن ساختگی با </a></li>
+                        <li><a href="#">لورم ایپسوم متن </a></li>
+                        <li><a href="#">لورم ایپسوم </a></li>
+                    </ul>
+                </div>
+                <!--/.First column-->
+                <hr class="clearfix w-100 d-md-none mb-0">
+                <!--Second column-->
+                <div class="col-md-3 mx-auto shfooter">
+                    <span class="my-2 font-weight-bold d-none d-md-block">مطالب آموزشی </span>
+                    <div class="d-md-none title" data-target="#Company" data-toggle="collapse">
+                        <div class="mt-3 font-weight-bold text-right">مطالب آموزشی
+                            <div class="float-left navbar-toggler">
+                                <i class="fa fa-angle-down"></i>
+                                <i class="fa fa-angle-up"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <ul class="list-unstyled collapse" id="Company">
+                        <li><a href="#">لورم ایپسوم متن ساختگی </a></li>
+                        <li><a href="#">لورم ایپسوم متن </a></li>
+                        <li><a href="#">لورم ایپسوم متن ساختگی با </a></li>
+                        <li><a href="#">لورم ایپسوم متن </a></li>
+                        <li><a href="#">لورم ایپسوم </a></li>
+                    </ul>
+                </div>
+                <!--/.Second column-->
+                <hr class="clearfix w-100 d-md-none mb-0">
+                <!--Third column-->
+                <div class="col-md-3 mx-auto shfooter">
+                    <span class="my-2 font-weight-bold d-none d-md-block">بخش های سایت</span>
+                    <div class="d-md-none title" data-target="#Resources" data-toggle="collapse">
+                        <div class="mt-3 font-weight-bold text-right">بخش های سایت
+                            <div class="float-left navbar-toggler">
+                                <i class="fa fa-angle-down"></i>
+                                <i class="fa fa-angle-up"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <ul class="list-unstyled collapse" id="Resources">
+                        <li><a href="#">صفحه اصلی</a></li>
+                        <li><a href="#">انجان های تخصصی</a></li>
+                        <li><a href="#">آموزش های مرتبط</a></li>
+                        <li><a href="#">تبلیغات</a></li>
+                        <li><a href="#">کانال تلگرام</a></li>
+                    </ul>
+                </div>
+                <!--/.Third column-->
+                <hr class="clearfix w-100 d-md-none mb-0">
+                <!--Fourth column-->
+                <div class="col-md-3 mx-auto shfooter">
+                    <span class="my-2 font-weight-bold d-none d-md-block">حساب کاربری</span>
+                    <div class="d-md-none title" data-target="#Get-Help" data-toggle="collapse">
+                        <div class="mt-3 font-weight-bold text-right">حساب کاربری
+                            <div class="float-left navbar-toggler">
+                                <i class="fa fa-angle-down"></i>
+                                <i class="fa fa-angle-up"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <ul class="list-unstyled collapse" id="Get-Help">
+                        <li><a href="#" target="_blank">ثبت نام</a></li>
+                        <li><a href="#">سفارشات من</a></li>
+                        <li><a href="#">صورت های مالی من</a></li>
+                        <li><a href="#">آدرس های من</a></li>
+                        <li><a href="#">اطلاعات شخصی شما</a></li>
+                    </ul>
+                </div>
+                <!--/.Fourth column-->
+            </div>
+        </div>
+        <!--/.Footer Links-->
+        <hr class="mb-0">
+        <!--Copyright-->
+        <div class="py-3 text-center">
+            تمامی حقوق مادی و معنوی برای
+            <script>
+                // document.write(new Date().getFullYear())
+            </script> <a href="#">توان گستر</a> محفوظ است
+        </div>
+        <div class="py-3 text-center">
+            <a href="#">rigel.ir</a> طراحی شده توسط تیم
+        </div>
+        <!--/.Copyright-->
+    </footer>
+
+    <!------------------------------------------------------ end of footer ------------------------------------------- -->
+
+</main>
+
+
+
+
+
+
+
+<script src="js/jquery-3.6.0.min.js"></script>
+<script src="js/jquery.appear.js"></script>
+<script src=" bootstrap/js/bootstrap.js "></script>
+<script src="js/jquery.appear.js"></script>
+<script src=" js/bootstrap.min.js "></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src=" js/script.js "></script>
+</body>
+
+</html>
